@@ -4,6 +4,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*header*/
@@ -11,6 +13,7 @@ body {
   padding: 20px 70px 20px 32px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 /*burger menu button*/
@@ -54,6 +57,7 @@ body {
   background-color: transparent;
   border: none;
   padding: 12px 23px;
+  width: 100%;
 }
 
 .button-search {
@@ -76,7 +80,7 @@ body {
   margin-left: auto;
 }
 
-.icon-link {
+.icons-link {
   text-decoration: none;
   opacity: 0.24;
 }
@@ -96,4 +100,59 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+/*nav-menu*/
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 28px;
+}
+
+.nav-link {
+  color: #898989;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #e84630;
+  font-weight: 600;
+}
+
+.nav-link:hover .icon {
+  fill: #e84630;
+}
+
+.nav-item .icon {
+  fill: #898989;
+}
+
+.nav-text {
+  margin-left: 15px;
+}
+
+/*Subscriptions*/
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.nav-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-bottom: 30px;
+  color: #985dcb;
 }
